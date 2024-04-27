@@ -1,0 +1,20 @@
+public class Main {
+  public static void main(String[] args) {
+String emër = "erdri";
+    String mbiemër = "avdyli";
+    String vendlindja = "Tirana";
+    int mosha = 33;
+    boolean student = true;
+
+    String myData = emër + mbiemër + vendlindja + mosha + student;
+
+   int length = myData.length();
+    System.out.println(length);
+    myData.isEmpty();
+    System.out.println(myData.isEmpty());
+    myData.contains("është");
+    System.out.println(myData.contains("është"));
+
+    System.out.println(myData);
+}
+}
